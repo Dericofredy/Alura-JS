@@ -4,7 +4,7 @@ function tocaSom(idElementaudio){
 
 const listaDeTeclas = document.querySelectorAll('.tecla');
 
-/*
+/* USANDO WHILE
 let contador = 0;
 
 while (contador<listaDeTeclas.length) {
@@ -25,7 +25,7 @@ while (contador<listaDeTeclas.length) {
         console.log(contador);
 }
 */
-
+// OPÇAO COM USO DE FOR PARA INTERAR POR TODA A LISTA
 for (contador =0; contador <listaDeTeclas.length; contador++){
 
         const tecla = listaDeTeclas[contador];
