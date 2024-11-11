@@ -17,7 +17,7 @@ while (contador<listaDeTeclas.length) {
         console.log(idAudio);
 
         tecla.onclick = function(){ /* função anonima  */
-                tocaSom('#som_tecla_pom');
+                tocaSom(idAudio);
         };
 
         contador = contador+1;
