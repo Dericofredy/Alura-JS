@@ -68,7 +68,7 @@ h1 {
 
 footer{
   padding: 5%;
-  color:#23538a;
+  color:var(--branca);
   text-align: center;
   text-overflow: var(--cinza);
 }
