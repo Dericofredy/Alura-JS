@@ -36,8 +36,8 @@ for (contador =0; contador <listaDeTeclas.length; contador++){
                 tocaSom(idAudio);
         } 
         
-        tecla.onkeydown = function (evento.code){
-               console.log(evento);
+        tecla.onkeydown = function (evento){
+               console.log(evento.code);
                 if(''){
                   tecla.classList.add('ativa');
                 }
