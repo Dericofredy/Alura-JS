@@ -37,10 +37,15 @@ for (contador =0; contador <listaDeTeclas.length; contador++){
         } 
         
         tecla.onkeydown = function (evento){
+
                console.log(evento.code);
+
                 if(evento.code === 'Space'){
                   tecla.classList.add('ativa');
                 }
+
+                if(evento.code === 'Enter')
+                  tecla.classList.add('ativa');
         } 
         
         tecla.onkeyup = function () {
