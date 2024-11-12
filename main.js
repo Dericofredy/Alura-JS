@@ -35,9 +35,12 @@ for (contador =0; contador <listaDeTeclas.length; contador++){
         tecla.onclick = function (){
                 tocaSom(idAudio);
         } 
-
-        tecla.onkeydown = function (){
-                tecla.classList.add('ativa');
+        
+        tecla.onkeydown = function (evento){
+               console.log(evento);
+                if(''){
+                  tecla.classList.add('ativa');
+                }
         } 
         
         tecla.onkeyup = function () {
