@@ -4,7 +4,12 @@ function tocaSom(seletorAudio){
       if(elemento===null){
         alert('Elemento não encontrado')
       }
-      //elemento.play();
+
+      if(elemento!=null){
+        elemento.play();
+      }
+
+      
 }
 
 const listaDeTeclas = document.querySelectorAll('.tecla');
