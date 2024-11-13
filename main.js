@@ -6,7 +6,10 @@ function tocaSom(seletorAudio){
       }
 
       if(elemento!=null){
-        elemento.play();
+        
+        if(elemento.localName === 'audio'){
+           elemento.play();     
+        }
       }
 
       
