@@ -49,8 +49,8 @@ for (contador =0; contador <listaDeTeclas.length; contador++){
         tecla.onkeydown = function (evento){
 
                console.log(evento.code);
-
-                if(evento.code === 'Space' || evento.code === 'Enter'){
+                //Seleção das teclas que acionam sos sons.
+                if ((evento.code === 'Space' || evento.code === 'Enter') && evento.code !== 'NumpadEnter') {
                   tecla.classList.add('ativa');
                 }
 
